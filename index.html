@@ -13,6 +13,7 @@
         href="https://fonts.googleapis.com/css2?family=Chango&family=Dancing+Script:wght@400..700&family=Lobster&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="icon" href="favicon/feane-favicon.png" type="image/png">
     <title>Feane</title>
 </head>
@@ -66,7 +67,7 @@
     <section>
         <div class="cards">
 
-            <div class="card1">
+            <div data-aos="fade-down-right"class="card1 ">
                 <div class="card-img">
                     <img class="bread" src="./feane_content/bread.jpg" alt="">
                 </div>
@@ -80,7 +81,7 @@
                     </div>
                 </div>
             </div>
-            <div class="card1">
+            <div data-aos="fade-up-left" class="card1">
                 <div class="card-img">
                     <img class="bread" src="./feane_content/tomato.jpg" alt="">
                 </div>
@@ -98,7 +99,8 @@
         </div>
     </section>
     <section id="menu">
-        <div class="menu">
+        <div  data-aos="fade-up"
+     data-aos-duration="3000" class="menu">
             <h1 class="our">our menu</h1>
             <div class="dishes">
                 <a class="dish all" href="">all</a>
@@ -277,7 +279,7 @@
 
     <section id="about">
         <div class="about">
-            <div class="about-img">
+            <div data-aos="zoom-in-up" class="about-img">
                 <img class="ab-img" src="./feane_content/about-img.png" alt="">
             </div>
             <div class="about-text">
@@ -411,7 +413,10 @@
     </footer>
 
 
-
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 
 </body>
 
