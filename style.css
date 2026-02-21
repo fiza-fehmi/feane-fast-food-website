@@ -10,7 +10,7 @@
 .hero {
     height: 100vh;
     width: 100%;
-    background-image: url(/feane_content/burger.jpg);
+    background-image: url('./feane_content/burger.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
